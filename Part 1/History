@@ -1,0 +1,7 @@
+Mocha -> LiveScript -> JavaScript(Netscape Navigator), JScript(internet explorer)
+ECMA ne sb browser k liye ek jaisi krdi language
+ES1, ...ES5(bhot hi bdhia thi), ....ES6(2015) is best  called ES2015
+ES7: ES2016
+ES8: ES2017
+Javascript is backward compatible mtlb koi purana feature bhio hoga to vo bhi kaam krega
+Javascript is not forward compatible mtlb ki jo feature mai aaj use kr ri hu vo 15 saal purane browser mei work nhi krega
