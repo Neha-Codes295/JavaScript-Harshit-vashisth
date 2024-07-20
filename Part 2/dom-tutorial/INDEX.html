@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- 1st way to link JS file -->
+    <!-- <script src="../12.js"></script> -->
+    <!-- is way mei dikkt h -->
+
+    <!-- 3rd way: -->
+    <!-- <script src="../12.js" async></script> -->
+    <!-- dikkat here as well -->
+
+    <!-- 4th way: -->
+    <!-- best way -->
+    <!-- <script src="../12.js" defer></script> -->
+    <!-- <script src="../13.js" defer></script> -->
+    <!-- <script src="../14.js" defer></script> -->
+    <!-- <script src="../15.js" defer></script> -->
+    <!-- <script src="../16.js" defer></script> -->
+    <!-- <script src="../17.js" defer></script> -->
+    <!-- <script src="../18.js" defer></script> -->
+    <!-- <script src="../19.js" defer></script> -->
+    <!-- <script src="../20.js" defer></script> -->
+    <!-- <script src="../22.js" defer></script> -->
+    <!-- <script src="../23.js" defer></script> -->
+    <!-- <script src="../24.js" defer></script> -->
+    <!-- <script src="../25.js" defer></script> -->
+    <!-- <script src="../26.js" defer></script> -->
+    <!-- <script src="../27.js" defer></script> -->
+    <!-- <script src="../28.js" defer></script> -->
+    <!-- <script src="../29.js" defer></script> -->
+    <!-- <script src="../30.js" defer></script> -->
+    <!-- <script src="../31.js" defer></script> -->
+    <!-- <script src="../37.js" defer></script> -->
+    <script src="../39.js" defer></script>
+    
+    <title>My Website</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <h1 class="logo">Website</h1>
+            <ul class="nav-items">
+                <li class="nav-item"><a href="#Home">Home</a></li>
+                <li class="nav-item"><a href="#Todo">Todo</a></li>
+                <li class="nav-item"><a href="#Sign">Sign Up</a></li>
+            </ul>
+        </nav>
+
+        <div class="headline" id="Home">
+            <h2 id="main-heading">Manage Your Tasks <span style="display: none;">Hello</span></h2>
+            <button class="btn btn-headline" onclick= "console.log('You clicked me')">Learn More</button>
+        </div>
+    </header>
+
+    <section class="todo-section container" id="Todo">
+        <h2>What's ur plan for today ?</h2>
+
+
+        <form class="form-todo">
+            <input type="text" name="" id="" placeholder="Add ToDo">
+            <input type="submit" value="Add ToDo" class="btn">
+        </form>
+
+        
+        <ul class="todo-list">
+            <li class="first-todo">todo1</li>
+            <li>
+                <span class="text">Do this , Do that</span>
+                <div class="todo-buttons">
+                    <button class="todo-btn done">Done</button>
+                    <button class="todo-btn remove">Remove</button>
+                </div>
+            </li>
+
+            <!-- <li>item1</li>
+            <li>item2</li>
+            <li>item3</li>
+            <li>item4</li>
+            <li>item5</li> -->
+        </ul>
+    </section>
+    
+    <section class="section-signup container" id="Sign">
+        <h2>Sign Up</h2>
+        <form class="signup-form">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">
+                <label for="confirmpassword">Confirm Password</label>
+                <input type="password" name="confirmpassword" id="confirmpassword">
+            </div>
+            <button type="submit" class="signup-btn">Submit</button>
+        </form>
+    </section>
+
+    <!-- 2nd way to link JS file -->
+    <!-- <script src="../12.js"></script> -->
+    <!-- yaha js file execute to hojayegi pr dikkt isme bhi aayegi -->
+</body>
+</html>
